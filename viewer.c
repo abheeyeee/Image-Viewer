@@ -61,7 +61,7 @@ int main() {
     // SDL_RenderClear(renderer);
     // SDL_RenderPresent(renderer);
 
-    
+    // SDL event loop to keep your window alive
     int viewer_running =1;
     while (viewer_running){
         SDL_Event event;
